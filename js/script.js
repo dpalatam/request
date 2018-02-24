@@ -1,5 +1,5 @@
 //form
-  const scriptURL = 'https://script.google.com/macros/u/1/s/AKfycbwij-lDBnxknc0eMByGtPGlIP7VjUH_mqn7_BKuSVjBIuKpsuU/exec'
+  const scriptURL = 'https://script.google.com/macros/u/1/s/AKfycbyVV-6x6agwFJJr8M-bVkBQvTGFh6X_TWoVSRbFvfe4ushvfgO5/exec'
   const form = document.forms['submit-to-google-sheet']
 
   form.addEventListener('submit', e => {
@@ -29,5 +29,5 @@
   })();
 //open tab
   function openWin() {
-    window.open('https://www.google.com')
+    window.open('https://www.latam.com')
   }
