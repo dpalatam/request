@@ -1,5 +1,5 @@
 //form
-  const scriptURL = 'https://script.google.com/macros/u/1/s/AKfycbyVV-6x6agwFJJr8M-bVkBQvTGFh6X_TWoVSRbFvfe4ushvfgO5/exec'
+  const scriptURL = 'https://script.google.com/macros/u/1/s/AKfycbzPpCv0MRBY1C_A1pWIfLflK_UmuT0de2cjNKrwhLEqeYb2lbLT/exec'
   const form = document.forms['submit-to-google-sheet']
 
   form.addEventListener('submit', e => {
@@ -11,5 +11,5 @@
 
 // tab
   function openWin() {
-    window.open('https://www.latam.com')
+    window.open('https://www.google.com')
   }
