@@ -11,7 +11,7 @@
 
 //open tab
 function openWin() {
-  window.open('../solicitud/thanks.html')
+  window.open('../test/thanks.html')
 }
 /*
 window.setInterval(ut, 1000);
