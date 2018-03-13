@@ -9,26 +9,21 @@
       .catch(error => console.error('Error!', error.message))
   })
 
-  // Example starter JavaScript for disabling form submissions if there are invalid fields
-  (function() {
-    'use strict';
-    window.addEventListener('load', function() {
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.getElementsByClassName('needs-validation');
-      // Loop over them and prevent submission
-      var validation = Array.prototype.filter.call(forms, function(form) {
-        form.addEventListener('submit', function(event) {
-          if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-    }, false);
-  })();
 //open tab
-  function openWin() {
-    window.open('https://www.google.com')
-  }
+function openWin() {
+  window.open('../formtest/thanks.html')
+}
+/*
+window.setInterval(ut, 1000);
+function ut() {
+  var d = new Date();
+  document.getElementById("time").innerHTML = d.toLocaleTimeString();
+  document.getElementById("date").innerHTML = d.toLocaleDateString();
+}
+*/
 
+function test() {
+  x = Date()
+  document.getElementById("datepicker").value = x;
+};
+test();
